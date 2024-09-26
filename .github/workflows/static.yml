@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim İlk Sitem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hoş Geldiniz!</h1>
+    <nav>
+        <a href="#about">Hakkında</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>Hakkında</h2>
+        <p>Bu, benim ilk basit web sitem. HTML ve CSS kullanarak oluşturuldu.</p>
+    </section>
+
+    <section id="contact">
+        <h2>İletişim</h2>
+        <p>Bana <a href="mailto:ornek@eposta.com">ornek@eposta.com</a> adresinden ulaşabilirsiniz.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Benim Sitem. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
